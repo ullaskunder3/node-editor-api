@@ -9,7 +9,7 @@ app = FastAPI()
 
 
 origins = [
-    "https://node-editor.vercel.app"
+    "https://node-editor-lyart.vercel.app/"
 ]
 
 app.add_middleware(

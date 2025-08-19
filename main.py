@@ -9,7 +9,7 @@ app = FastAPI()
 
 
 origins = [
-    "http://localhost:5173"
+    "https://node-editor.vercel.app"
 ]
 
 app.add_middleware(
